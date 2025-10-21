@@ -39,16 +39,6 @@
             </svg>
             Continue with Google
           </button>
-          
-          <button
-            @click="handleAmazonSignIn"
-            class="w-full flex items-center justify-center gap-2 px-4 py-2 border rounded-lg hover:bg-gray-50 transition-colors"
-          >
-            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="#FF9900">
-              <path d="M14.114 17.176c-3.5 2.58-8.577 3.95-12.943 2.855-.836-.21-.865 1.288-.03 1.556 4.99 1.598 11.092.15 14.935-2.686.768-.567-.032-1.294-.962-.725zm1.115-1.264c-.447-.574-2.963-.27-4.092-.135-.344.04-.398-.258-.087-.474 2.005-1.41 5.295-.999 5.674-.529.38.473-.099 3.762-1.983 5.334-.291.243-.568.114-.439-.208.423-1.057 1.373-3.415.927-3.988zM13.117 9.77V8.335c0-.218.163-.363.362-.363h6.4c.206 0 .371.148.371.363v1.234c-.004.206-.175.477-.482.905l-3.315 4.734c1.232-.03 2.534.153 3.65.781.251.141.319.349.339.554v1.534c0 .21-.23.455-.471.327-1.973-1.034-4.597-1.147-6.776.013-.218.116-.447-.121-.447-.33v-1.455c0-.232.003-.63.236-.984l3.84-5.509H13.48c-.206 0-.371-.145-.371-.363z"/>
-            </svg>
-            Continue with Amazon
-          </button>
         </div>
 
         <div class="relative">
@@ -155,14 +145,6 @@ const handleGoogleSignIn = () => {
   emit('signIn', {
     name: 'Google User',
     email: 'user@gmail.com'
-  })
-  handleClose()
-}
-
-const handleAmazonSignIn = () => {
-  emit('signIn', {
-    name: 'Amazon User',
-    email: 'user@amazon.com'
   })
   handleClose()
 }
