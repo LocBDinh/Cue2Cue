@@ -16,18 +16,20 @@
           </span>
         </div>
         <div class="flex gap-8">
-           <a href="#features" class="relative text-white uppercase tracking-wider group transition-all duration-300"
-              style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
-              FEATURES
-              <span
-                class="absolute left-0 top-1/2 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#contact" class="relative text-white uppercase tracking-wider group transition-all duration-300"
-              style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
-              CONTACT
-              <span
-                class="absolute left-0 top-1/2 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+            class="relative text-white uppercase tracking-wider group transition-all duration-300 hover:text-slate-600"
+            style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
+            FEATURES
+            <span
+              class="absolute left-0 top-1/2 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
+          </a>
+          <a href="#contact"
+            class="relative text-white uppercase tracking-wider group transition-all duration-300 hover:text-slate-600"
+            style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
+            CONTACT
+            <span
+              class="absolute left-0 top-1/2 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
+          </a>
         </div>
       </nav>
 
@@ -114,13 +116,15 @@
         </div>
         <div class="flex gap-8">
           <div class="flex gap-8">
-            <a href="#features" class="relative text-white uppercase tracking-wider group transition-all duration-300"
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+              class="relative text-white uppercase tracking-wider group transition-all duration-300 hover:text-[#F5C26D]"
               style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
               FEATURES
               <span
                 class="absolute left-0 top-1/2 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#contact" class="relative text-white uppercase tracking-wider group transition-all duration-300"
+            <a href="#contact"
+              class="relative text-white uppercase tracking-wider group transition-all duration-300 hover:text-[#F5C26D]"
               style="font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em">
               CONTACT
               <span
